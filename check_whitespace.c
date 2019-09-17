@@ -67,6 +67,11 @@ int is_clean(char* str) {
   // greater than the second.
   result = strcmp(str, cleaned);
 
+  // Free cleaned after it has been checked if it is of length > 0
+  if (strlen(cleaned) != 0) {
+    free(cleaned); 
+  }
+
   return result == 0;
 }
 
