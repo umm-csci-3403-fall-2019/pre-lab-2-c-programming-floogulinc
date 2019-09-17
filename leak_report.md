@@ -2,7 +2,7 @@
 
 Running `valgrind` on the compiled program gives:
 ```
-floogulinc@floogulinc-T480s:/mnt/c/Users/floogulinc/Documents/Code/Git Repositories/pre-lab-2-c-progamming-floogulinc$ valgrind --leak-check=full ./check_whitespace
+floogulinc@floogulinc-T480s:/mnt/c/Users/floogulinc/Documents/Code/Git Repositories/pre-lab-2-c-programming-floogulinc$ valgrind --leak-check=full ./check_whitespace
 ==335== Memcheck, a memory error detector
 ==335== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
 ==335== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
